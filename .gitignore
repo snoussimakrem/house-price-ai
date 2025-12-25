@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual Environment
+venv/
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (optional - you can keep them if they're small)
+data/raw/*.csv
+!data/raw/sample_data.csv  # Keep a small sample
+
+# Model files (optional - you can exclude large models)
+model/*.pkl
+!model/sample_model.pkl  # Keep a small sample model
+
+# MLFlow
+mlruns/
+.mlflow/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/

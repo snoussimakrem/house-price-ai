@@ -1,0 +1,33 @@
+{
+    "features": [
+        "bedrooms",
+        "bathrooms",
+        "sqft_living",
+        "sqft_lot",
+        "floors",
+        "waterfront",
+        "view",
+        "condition",
+        "grade",
+        "sqft_above",
+        "sqft_basement",
+        "yr_built",
+        "yr_renovated",
+        "zipcode",
+        "lat",
+        "long",
+        "sqft_living15",
+        "sqft_lot15"
+    ],
+    "target": "price",
+    "model_type": "random_forest",
+    "performance": {
+        "r2": -0.11524706036459076,
+        "mae": 157486.68827040866,
+        "rmse": 198632.93523679557
+    },
+    "training_date": "2025-12-25 22:02:30",
+    "dataset_size": 500,
+    "test_size": 0.2,
+    "feature_count": 18
+}
